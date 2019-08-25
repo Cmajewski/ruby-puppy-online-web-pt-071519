@@ -17,9 +17,8 @@ attr_reader :name
 
   def self.print_all
     @@all.each do |dog|
-    string= "#{dog}"
+    puts dog
     end
-    string
   end
 
   def self.clear_all
